@@ -1,0 +1,8 @@
+interface:
+  display_name: "公众号发文合规审核"
+  short_description: "发布前检查公众号文章、标题、封面和引流风险。"
+  brand_color: "#07C160"
+  default_prompt: "Use $wechat-oa-prepublish-auditor to review this WeChat Official Account draft before publishing."
+
+policy:
+  allow_implicit_invocation: true
